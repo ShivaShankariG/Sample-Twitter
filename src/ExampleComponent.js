@@ -3,7 +3,7 @@ import Paper from 'material-ui/Paper';
 import ProfileBox from './ProfileBox';
 import Toolbar from './Toolbar';
 import Newsfeed from './Newsfeed';
-import Card2 from './Card2';
+import News1 from './News1';
 const styles = {
 Containerr:{
     display: 'flex',
@@ -45,7 +45,7 @@ class ExampleComponent extends React.Component {
         <br/>
 
 
-              <Card2/>
+              <News1/>
       </Paper>
         <Paper ZDepth={1} style ={styles.paperSide}>
             <h4> Who to follow?</h4>

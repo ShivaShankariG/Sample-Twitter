@@ -10,6 +10,7 @@ class TextFieldExampleSimple extends React.Component
 
   <div>
     <TextField
+     style={{  borderRadius: 25 }}
       hintText={this.props.hinttext}
       hasIcon={true}
       iconButton={<IconButtonExampleComplex/>}

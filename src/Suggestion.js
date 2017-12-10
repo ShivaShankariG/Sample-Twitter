@@ -17,7 +17,7 @@ a:{
 },
 
 };
-export default class Card3 extends React.Component
+export default class Suggestion extends React.Component
 {
   render()
   {

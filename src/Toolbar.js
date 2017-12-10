@@ -39,7 +39,7 @@ export default class ToolbarExamplesSimple extends React.Component {
         </ToolbarGroup>
 
         <ToolbarGroup>
-          <TextFieldExampleSimple hinttext="Search Twitter"/>
+          <TextFieldExampleSimple hinttext="Search Twitter" />
         </ToolbarGroup>
         <ToolbarGroup>
               <Avatar  size="40" src="https://twirpz.files.wordpress.com/2015/06/twitter-avi-gender-balanced-figure.png?w=1280" round="true"/>

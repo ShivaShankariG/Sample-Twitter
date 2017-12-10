@@ -3,10 +3,11 @@ import Paper from 'material-ui/Paper';
 import ProfileBox from './ProfileBox';
 import Toolbar from './Toolbar';
 import Newsfeed from './Newsfeed';
-import Card2 from './Card2';
-import Card3 from './Card3';
-import Card4 from './Card4'
-;const styles={
+import News1 from './News1';
+import Suggestion from './Suggestion';
+import News2 from './News2';
+import Trends from './Trends';
+const styles={
   Container1:{
     marginLeft: '100px',
     marginRight: '100px',
@@ -24,6 +25,10 @@ Child2:{
   flex: 4,
 maxWidth: '50%',
 },
+bottom: {
+  flex: 1,
+  maxwidth: '20%',
+}
 
 };
 
@@ -36,17 +41,21 @@ class ExampleComponent extends React.Component {
 
             <Paper zDepth={1} style={styles.Child1}>
                 <ProfileBox/>
+                <Paper zDepth={1} style={styles.bottom}>
+                <hr/>
+                  <Trends/>
+                </Paper>
             </Paper>
 
             <Paper zDepth={1} style={styles.Child2}>
               <Toolbar Id='2'/>
               <br/>
-              <Card2/>
-              <Card4/>
+              <News1/>
+              <News2/>
             </Paper>
 
             <Paper ZDepth={1} style ={styles.Child1}>
-                <Card3/>
+                <Suggestion/>
             </Paper>
 
 

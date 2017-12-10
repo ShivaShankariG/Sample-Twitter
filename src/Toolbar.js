@@ -12,7 +12,9 @@ import TextFieldExampleSimple from './TextFieldExampleSimple';
 import AvatarExampleSimple from './AvatarExampleSimple';
 import RaisedButton1 from './RaisedButton1';
 import Avatar from 'react-avatar';
+import {Tabs, Tab} from 'material-ui/Tabs';
 
+import {lightBlue500 ,grey700 ,yellowA700,white, cyan500, brown900, blue500 } from 'material-ui/styles/colors';
 
 
 export default class ToolbarExamplesSimple extends React.Component {
@@ -31,7 +33,7 @@ export default class ToolbarExamplesSimple extends React.Component {
     return (
       <Toolbar  style={{backgroundColor: 'white' , width: '100%' , height:'50%'}} >
         <ToolbarGroup firstChild={true} >
-          <TabsExampleIconText/>
+          <TabsExampleIconText context="main"/>
         </ToolbarGroup>
         <br/>
         <ToolbarGroup>
@@ -39,7 +41,7 @@ export default class ToolbarExamplesSimple extends React.Component {
         </ToolbarGroup>
 
         <ToolbarGroup>
-          <TextFieldExampleSimple hinttext="Search Twitter" />
+          <TextFieldExampleSimple hinttext="aadhaar" />
         </ToolbarGroup>
         <ToolbarGroup>
               <Avatar  size="40" src="https://twirpz.files.wordpress.com/2015/06/twitter-avi-gender-balanced-figure.png?w=1280" round="true"/>
@@ -65,6 +67,16 @@ export default class ToolbarExamplesSimple extends React.Component {
         </ToolbarGroup>
 
 
+      </Toolbar>
+    );
+  }
+  else if(this.props.Id=='search')
+  {
+    return(
+      <Toolbar>
+      <ToolbarGroup firstChild={true} >
+        <TabsExampleIconText context="second"/>
+      </ToolbarGroup>
       </Toolbar>
     );
   }

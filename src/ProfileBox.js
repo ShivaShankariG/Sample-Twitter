@@ -8,14 +8,26 @@ import Card from './Card';
  class ProfileBox extends React.Component
 {
   render(){
+    if(this.props.id=='1'){
     return (
     <div>
-      <Rectangle aspectRatio={[2, 1]}>
-        <div style={{ background: '#2196F3', width: '100%', height: '100%' }}/ >
+      <Rectangle aspectRatio={[4, 1]}>
+        <div style={{ background: '#FFA726', width: '100%', height: '100%' }}/ >
       </Rectangle>
-      <Card/>
+      <Card id='1'/>
 </div>
     )
+  }
+  else if(this.props.id=='2'){
+    return (
+    <div>
+      <Rectangle aspectRatio={[4, 1]}>
+        <div style={{ background: '#F44336', width: '100%', height: '100%' }}/ >
+      </Rectangle>
+      <Card id='2'/>
+</div>
+    )
+  }
   }
 }
 export default ProfileBox;

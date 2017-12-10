@@ -26,7 +26,7 @@ export default class Suggestion extends React.Component
       <div style={styles.test}>
     <h4 style={styles.h}>Who to follow?   </h4><a href="www.google.com" style={styles.a} >Refresh  </a><a href="www.google.com" >View all</a>
 </div>
-<ChipExampleSimple/>
+
 
 
 </div>

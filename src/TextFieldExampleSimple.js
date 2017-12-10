@@ -2,6 +2,7 @@ import React from 'react';
 import TextField from 'material-ui/TextField';
 import logo from './logo.svg';
 import IconButtonExampleComplex from './IconButtonExampleComplex';
+import SearchIcon from 'material-ui/svg-icons/action/search';
 class TextFieldExampleSimple extends React.Component
 {
   render()
@@ -13,7 +14,7 @@ class TextFieldExampleSimple extends React.Component
      style={{  borderRadius: 25 }}
       hintText={this.props.hinttext}
       hasIcon={true}
-      iconButton={<IconButtonExampleComplex/>}
+      iconButton={<SearchIcon/>}
       />
   </div>
 );

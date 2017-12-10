@@ -12,6 +12,7 @@ import AppBar from 'material-ui/AppBar';
 import PaperExampleSimple from './PaperExampleSimple';
 import ExampleComponent from './ExampleComponent';
 import IconButtonExampleSize from './IconButtonExampleSize';
+import AppBarExampleIcon from './AppBarExampleIcon';
 
 const muiTheme = getMuiTheme({
 
@@ -31,7 +32,8 @@ class App extends Component {
 
 
         <Toolbar className="App" Id='1'/>
-
+        <AppBarExampleIcon/>
+        <Toolbar className="App" Id='search'/>
       <br/>
       <div >
 

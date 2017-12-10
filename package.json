@@ -1,0 +1,22 @@
+{
+  "name": "my-twitter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "file:node_modules/material-ui",
+    "mui-icons": "file:node_modules/mui-icons",
+    "react": "^16.2.0",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-avatar": "^2.5.1",
+    "react-dom": "^16.2.0",
+    "react-rectangle": "^1.3.3",
+    "react-scripts": "1.0.17",
+    "react-scrollbar-js": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
